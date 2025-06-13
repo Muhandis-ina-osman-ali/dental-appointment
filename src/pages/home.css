@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+
+/* Centers the entire logo row */
+.logo-slider-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+/* Arrow buttons */
+.slider-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #003366;
+  padding: 0 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.slider-arrow:hover {
+  transform: scale(1.2);
+}
+
+/* Logo Image */
+.logo-image {
+  width: 300px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h2{
+  text-align: center;
+  color: #003366;
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: xx-large;
+}

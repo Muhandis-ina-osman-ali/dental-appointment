@@ -1,0 +1,84 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: 80vh;
+  background: #f0f2f5;
+}
+
+.auth-container {
+  background: white;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0066cc;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.auth-container input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-container button {
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-container button:hover {
+  background-color: #004c99;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.auth-switch a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 2rem 1rem;
+  background: #f0f2f5;
+  min-height: calc(100vh - 60px); /* Adjust if you have a header + footer */
+  box-sizing: border-box;
+}
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
